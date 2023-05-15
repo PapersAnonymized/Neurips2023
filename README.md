@@ -44,25 +44,35 @@ BaseNetV.m
 CNNInputNet.m
 CNNInputNetV.m
 LinRegInputNet.m
-LinRegInputNetV.m
 MLPInputNet.m
 MLPInputNetV.m
 RNNInputNet.m
 RNNSeqInputNet.m
 
 AnnNet.m
+AnnVNet.m
 CnnCascadeNet.m
+CnnCascadeVNet.m
 CnnNet.m
+CnnVNet.m
 GmdhNet.m
+GmdhVNet.m
 KgNet.m
+KgVNet.m
 LinRegNet.m
 LstmNet.m
+LstmVNet.m
 LstmSeqNet.m
 RbfNet.m
+RbfVNet.m
 ReluNet.m
+ReluVNet.m
 SigNet.m
+SigVNet.m
 TanhNet.m
+TanhVNet.m
 TransNet.m
+TransVNet.m
    
    * Custom ANN layers
 GaussianRBFLayer.m
@@ -96,7 +106,7 @@ w_series_generic_minmax_rescale.m
 w_series_generic_minmax_scale.m
 
  - Accuracy metrics calculation script:
-pval.R
+ltts_vreg_err.R
 
  - Input data files (stock indexes
 nasdaq_1_3_05-1_28_22.csv
